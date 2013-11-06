@@ -1,4 +1,4 @@
-require 'lib/matriz.rb'
+require "matriz.rb"
 
 describe Matriz do
 	
