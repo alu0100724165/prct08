@@ -13,6 +13,12 @@ describe Matriz do
 		it "se almacenan los datos" do
 			@p1.cargar_Matriz.should eq(4)
 		end
-        end
+	end
+	describe "Mostrar la matriz" do
+		it "Se debe mostrar la matriz" do
+			@p1.cargar_Matriz
+                        @p1.mostrar_Matriz.should eq(4)		
+		end
+	end
       
 end
