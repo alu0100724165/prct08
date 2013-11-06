@@ -6,10 +6,13 @@ describe Matriz do
                 @p1=Matriz.new(4)
        	end
               
-	describe "Obtener matriz" do
+	describe "Crear y cargar matriz" do
 		it "Se ha creado la matriz" do
 			@p1.matriz!=nil
         	end
+		it "se almacenan los datos" do
+			@p1.cargar_Matriz.should eq(4)
+		end
         end
       
 end
